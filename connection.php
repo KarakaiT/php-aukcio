@@ -1,4 +1,4 @@
-<?php
+<?php 
 
     define("host", "Localhost");
     define("user", "root");
@@ -7,4 +7,6 @@
 
         $con = mysqli_connect(host,user,pwd,dbname);
         mysqli_query($con, "SET NAMES utf8");
+        
+?>
 

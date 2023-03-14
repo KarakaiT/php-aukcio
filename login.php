@@ -29,7 +29,7 @@
             if(mysqli_num_rows($result) > 0){
 
                 $_SESSION["logged"] = true;
-                $_SESSION["logged"] = $user;
+                $_SESSION["user"] = $user;
                 header("Location: index.php");
             }
             else{

@@ -54,4 +54,146 @@ body{
     margin-top: 50px;
 }
 
+#kapcs{
+
+    width: 100%;
+    height: 100vh;
+}
+
+#kapcs div {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#kapcs div h1{
+
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+
+
+#termekpage{
+
+
+    height: 100vh;
+    width: 100%;
+
+}
+
+.valami{
+
+    width: 100%;
+    display: grid;
+    box-sizing: border-box;
+    padding: 50px;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+}
+
+.kiskutya{
+
+    text-align: center;
+    padding: 25px;
+}
+
+.kiskutya h1{
+
+    margin: 50px 0;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.sort a{
+
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 0 10px;
+}
+
+.sort a:hover{
+
+    color: orange;
+}
+
+.card{
+
+    margin: 50px 0;
+    width: 350px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    
+}
+
+.card img{
+
+    height: 400px;
+}
+
+
+
+#termekkep{
+
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#termekkep img{
+
+    width: 60%;
+    margin: 0 auto;
+}
+
+#termekadatok{
+
+    width: 40%;
+    float: right;
+    margin-top: 25px;
+}
+
+#termekkosar{
+
+    margin: 40px 0;
+}
+
+#termekkosar a{ 
+
+    background: palevioletred;
+    color: papayawhip;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    
+}
+
+.termekdoboz{
+
+    margin-top: 150px;
+    width: 950px;
+    padding: 25px;
+    box-sizing: border-box;
+    height: 750px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
